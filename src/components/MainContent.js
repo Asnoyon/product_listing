@@ -12,7 +12,7 @@ const MainContent = ()=>{
         <h2>{item.product_name}</h2>
         <p>{item.description}</p>
         <p className='price'>{item.price}<span>{item.currency}</span></p>
-        <div className='btn'>Add to cart</div>
+        <div className='btn'>Add To cart</div>
       </div>
     </div>
 );
